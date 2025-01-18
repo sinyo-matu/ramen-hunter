@@ -21,10 +21,7 @@ export default define.page(async function Shops(ctx) {
               </a>
             </button>
             <span class="py-2">
-              <a href={`?page=${shops.pageInfo.currentPage}`}>
-                Page {shops.pageInfo.currentPage}
-              </a>
-              / {shops.pageInfo.lastPage}
+              Page {shops.pageInfo.currentPage} / {shops.pageInfo.lastPage}
             </span>
             <button
               class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50"
