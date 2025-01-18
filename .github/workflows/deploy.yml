@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "yangqin-ramen-hunte-68"
+          project: "ramen-hunter"
           entrypoint: "main.ts"
           root: "."
           
