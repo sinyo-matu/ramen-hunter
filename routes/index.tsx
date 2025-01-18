@@ -1,7 +1,7 @@
 import { ShopCard } from "../components/ShopCard.tsx";
 import { define } from "../utils.ts";
 import { ramenApiClient } from "../utils.ts";
-import Layout from "../components/layout.tsx";
+import { Layout } from "../components/layout.tsx";
 
 export default define.page(async function Shops(ctx) {
   const searchParams = ctx.url.searchParams;

@@ -1,7 +1,7 @@
 import { Shop } from "../types.ts";
 export function ShopCard({ shop }: { shop: Shop }) {
   return (
-    <div class="bg-white rounded-lg shadow-md p-4">
+    <div class="bg-white rounded-lg shadow-md p-4 font-['M PLUS Rounded 1c']">
       <h2 class="text-2xl font-bold">
         <a href={`/shops/${shop.id}`}>{shop.name}</a>
       </h2>

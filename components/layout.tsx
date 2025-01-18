@@ -1,11 +1,13 @@
-import { FunctionComponent } from "preact";
+import { ComponentChildren } from "preact";
 
-export default function Layout({ children }: FunctionComponent) {
+export function Layout({ children }: { children: ComponentChildren }) {
   return (
     <main class="min-h-screen flex flex-col bg-gray-100">
       <nav class="p-4 flex items-center justify-center">
         <img src="/logo.svg" alt="ramen-hunter" class="w-12 h-12" />
-        <h1 class="text-2xl font-bold font-['Montserrat']">ramen-hunter</h1>
+        <h1 class="text-2xl font-bold font-['Montserrat'] select-none">
+          ramen-hunter
+        </h1>
       </nav>
       <div class="p-4 flex-grow">{children}</div>
       <footer class="p-4 flex items-center justify-between">
