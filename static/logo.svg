@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+  <!-- ラーメンどんぶり（シンプルな線画） -->
+  <path d="M130 100 Q200 90, 270 100 Q280 140, 200 150 Q120 140, 130 100" 
+        fill="none" 
+        stroke="#333333" 
+        stroke-width="3"/>
+  
+  <!-- シンプルな麺の表現 -->
+  <path d="M150 110 Q200 100, 250 110" 
+        stroke="#333333" 
+        stroke-width="2.5" 
+        fill="none"/>
+  <path d="M160 120 Q200 110, 240 120" 
+        stroke="#333333" 
+        stroke-width="2.5" 
+        fill="none"/>
+  
+  <!-- 箸（シンプルな2本線） -->
+  <line x1="190" y1="80" x2="220" y2="100" 
+        stroke="#333333" 
+        stroke-width="2.5"/>
+  <line x1="200" y1="75" x2="230" y2="95" 
+        stroke="#333333" 
+        stroke-width="2.5"/>
+  
+  <!-- テキスト -->
+  <text x="200" y="190" 
+        font-family="Arial, sans-serif" 
+        font-size="24" 
+        text-anchor="middle" 
+        fill="#333333" 
+        font-weight="bold">RAMEN-HUNTER</text>
+</svg>
