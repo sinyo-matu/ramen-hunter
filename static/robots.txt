@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /shops/
+Disallow: /api/
+
+Sitemap: https://ramenhunter.deno.dev/sitemap.xml 
