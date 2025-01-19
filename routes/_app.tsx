@@ -1,4 +1,5 @@
 import type { PageProps } from "fresh";
+import { Partial } from "fresh/runtime";
 
 export default function App({ Component }: PageProps) {
   return (
@@ -19,7 +20,7 @@ export default function App({ Component }: PageProps) {
           rel="stylesheet"
         />
       </head>
-      <body>
+      <body f-client-nav>
         <Component />
       </body>
     </html>

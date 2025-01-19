@@ -5,7 +5,7 @@ export default define.page(async function Shop({ params }) {
   const shop = await ramenApiClient.getShop({ shopId: params.shopId });
   return (
     <Layout>
-      <div class="flex flex-col gap-4">
+      <div class="flex flex-col gap-4 flex-grow p-4">
         <h1 class="text-2xl font-bold">{shop.shop.name}</h1>
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {shop.shop.photos?.map((photo) => (
