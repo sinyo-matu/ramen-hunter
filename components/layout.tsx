@@ -6,7 +6,7 @@ export function Layout({ children }: { children: ComponentChildren }) {
       <nav class="p-4 flex items-center justify-center">
         <img src="/logo.svg" alt="ramen-hunter" class="w-12 h-12" />
         <h1 class="text-2xl font-bold font-['Montserrat'] select-none">
-          ramen-hunter
+          Ramen-Sasshi
         </h1>
       </nav>
       {children}
