@@ -5,3 +5,11 @@
 body {
   font-family: "M PLUS Rounded 1c", "Montserrat", sans-serif;
 }
+
+.rtl {
+  direction: rtl;
+}
+
+.ltr {
+  direction: ltr;
+}

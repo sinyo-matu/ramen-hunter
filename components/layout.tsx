@@ -9,7 +9,7 @@ export function Layout({ children }: { children: ComponentChildren }) {
           ramen-hunter
         </h1>
       </nav>
-      <div class="p-4 flex-grow">{children}</div>
+      {children}
       <footer class="p-4 flex items-center justify-between">
         <div>
           <span class="font-bold">Powered by</span>
