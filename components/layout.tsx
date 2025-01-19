@@ -14,7 +14,7 @@ export function Layout({ children }: { children: ComponentChildren }) {
         <div>
           <span class="font-bold">Powered by</span>
           <span class="font-bold ml-1">
-            <a href="https://github.com/yusukebe/ramen-api">Ramen API</a>
+            <a href="https://github.com/yusukebe/ramen-api">🍜Ramen API</a>
           </span>
         </div>
         <div>

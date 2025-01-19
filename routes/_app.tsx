@@ -15,11 +15,7 @@ export default function App({ Component }: PageProps) {
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=M+PLUS+Rounded+1c:wght@400;700&display=swap"
           rel="stylesheet"
         />
       </head>
